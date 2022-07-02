@@ -127,3 +127,21 @@ info-name a{
     position: absolute;
 }
 
+/*About Me*/
+.container-card{
+    margin: 0 5rem;
+    line-height:2;
+    max-width: 100%;
+}
+.background{
+    display: flex;
+}
+
+.background .description{
+    margin-right: 5rem;
+}
+
+.meet{
+    color: #f58d42;
+    font-size: 3rem;
+}
