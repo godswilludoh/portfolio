@@ -28,7 +28,7 @@ a{
 
 
 p{
-    margin: 10px 0;
+    margin: 2rem 0 4rem;
     font-size: 1.5rem;
 }
 
@@ -47,6 +47,11 @@ p{
 .btn{
     border: .2rem solid #fff;
     padding: 1rem;
+    margin-top: 10rem;
+}
+
+.btn:hover{
+    color: #f58d42;    
 }
 
 /*Navbar*/
@@ -54,7 +59,7 @@ p{
     display:flex;
     margin: auto;
     width: 85%;
-    padding: 20px 0;
+    padding: 3rem 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -93,7 +98,15 @@ p{
 .icons-left{
     display: flex;
     flex-direction: column;
-    /* justify-items: space-between; */
+    line-height:8rem;
+}
+
+.icons-left .fa-brands{
+    font-size: 2rem;
+}
+
+.icons-left .fa-brands:hover{
+    color: #f58d42;
 }
 
 .info-name{
@@ -111,9 +124,6 @@ p{
 }
 
 info-name a{
-    
+    position: absolute;
 }
 
-info-name a .btn:hover{
-    background-color: #f58d42;
-}
