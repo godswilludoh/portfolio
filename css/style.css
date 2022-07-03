@@ -98,7 +98,7 @@ p{
 .icons-left{
     display: flex;
     flex-direction: column;
-    line-height:8rem;
+    line-height: 6rem;
 }
 
 .icons-left .fa-brands{
@@ -145,3 +145,4 @@ info-name a{
     color: #f58d42;
     font-size: 3rem;
 }
+
