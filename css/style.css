@@ -207,6 +207,25 @@ info-name a{
     font-size: 1.2rem;
 }
 
+/*Work*/
+img{
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.project1,
+.project2, 
+.project3{
+    display: flex;
+    margin: 4rem auto;
+}
+
+.project-desc{
+    font-family: 'Lato', sans-serif;
+    margin: 2rem auto;
+}
+
+
 
 /*Contact Form*/
 .container-card .form-group{
