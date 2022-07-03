@@ -260,3 +260,16 @@ img{
 .download:hover{
     color: #f58d42;    
 }
+
+/****Media Queries ****/
+/* Smartphones */
+@media(max-width: 500px){}
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 768px){}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px){}
+
+/*Widescreen */
+@media (min-width: 1201px){}
