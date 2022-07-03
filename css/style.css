@@ -26,12 +26,6 @@ a{
     letter-spacing: .2rem;
 }
 
-b{
-    font-size:7rem;
-    color:#f58d42
-}
-
-
 p{
     margin: 2rem 0 4rem;
     font-size: 1.5rem;
@@ -244,6 +238,7 @@ img{
     padding: 1rem;
     border: .2rem  #a0a0a0 solid;
     border-radius: 3rem;
+    color: #a0a0a0;
     background-color: #1b1b2b;
 }
 
@@ -255,4 +250,13 @@ img{
 .container-card textarea:focus{
     outline:none;
     border-color: #f7c08a;
+}
+
+.download{
+    border: .2rem solid #fff;
+    padding: 1rem;
+}
+
+.download:hover{
+    color: #f58d42;    
 }
