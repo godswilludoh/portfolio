@@ -25,6 +25,7 @@
                     <li><a href="work.html">Projects</a></li>
                     <li><a href="contact.html">Contact Me</a></li>
                 </ul>
+                <button>Download CV</button>
             </div>
         </nav>
     </header>
@@ -36,16 +37,31 @@
             <a href="https://medium.com/@godswilludoh"><i class="fa-brands fa-medium"></i></a>
         </div>
 
-       <div class="about-me">
+       <section id="contact-me">
         <div class="container-card">
             <h1 class="meet">Let us Talk</h1>
-            <form>
-                <p>Feel free to reach out to me if you have any question or if you'll like to create magic with me.</p>
+            <p>Feel free to reach out to me if you have any question or if you'll like to create magic with me.</p>
+            <form>              
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Let's build the next great thing"></textarea>
+                </div>
+             
                 <a class="btn" href="contact.html">Say Hello</a>
             </form>
         
         </div>
-       </div>
+       </section>
        
     </section>
 

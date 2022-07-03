@@ -38,13 +38,23 @@
 
         <div class="info-name">
             <h1>Hello, I am
-            <br> <span class="name">Godswill Udoh</span> </h1>
-            <p>Frontend Developer || Web3 Developer</p>
+            <br> <span class="name">Godswill Udoh</span></h1>
+            <p class="profession"></p>
             <a class="btn" href="contact.html">Say Hello</a>
             <div class="info-img"></div>
         </div>
        
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typingEffect = new Typed(".name", {
+             strings: ["Godswill Udoh","Frontend Developer", "Web3 Developer", "Technical Writer", "Bearded Coder" ],
+            loop : true,
+            typeSpeed: 100,
+            backSpeed:80,
+            backDelay: 1500,
+        })
+    </script>
 </body>
 </html>

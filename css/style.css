@@ -26,10 +26,19 @@ a{
     letter-spacing: .2rem;
 }
 
+b{
+    font-size:7rem;
+    color:#f58d42
+}
+
 
 p{
     margin: 2rem 0 4rem;
     font-size: 1.5rem;
+}
+
+.profession{
+    width: 60%;
 }
 
 .logo a{
@@ -52,6 +61,21 @@ p{
 
 .btn:hover{
     color: #f58d42;    
+}
+
+button{
+    outline:none;
+    border:none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #eee;
+    background-color: #1b1b2b;
+    border: .2rem solid #fff;
+    padding: 1rem;
+}
+
+button:hover{
+    color: #f58d42;  
 }
 
 /*Navbar*/
@@ -88,7 +112,7 @@ p{
     width: 100%
 }
 
-/*Section*/
+/*Home Section*/
 #home-info{
     margin: 10rem 5rem;
     display: flex;
@@ -146,3 +170,54 @@ info-name a{
     font-size: 3rem;
 }
 
+.image{
+    position: relative;
+    width: 100%; 
+    height: 100%;
+}
+
+.image img{
+    position: relative;
+    height: 100%; 
+    width: calc(130% - 8rem);
+    transform: rotateY(180deg);
+    animation: animateUser 4s linear infinite;
+}
+
+@keyframes animateUser{
+    50%{
+        right:3rem;
+        top: -9rem;
+    }
+}
+
+
+/*Contact Form*/
+.container-card .form-group{
+    margin-bottom: 2rem;
+}
+
+.container-card .form-group label{
+    display:block;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.container-card input, 
+.container-card textarea{
+    width: 80%;
+    padding: 1rem;
+    border: .2rem #eee solid;
+    border-radius: 3rem;
+    background-color: #1b1b2b;
+}
+
+.container-card textarea{
+    height: 15rem;
+}
+
+.container-card input:focus, 
+.container-card textarea:focus{
+    outline:none;
+    border-color: #f7c08a;
+}
