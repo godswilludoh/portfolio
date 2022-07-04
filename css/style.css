@@ -303,12 +303,18 @@ img{
         position: fixed;
         left: -100%;
         top: 7rem;
+        display: flex;
         flex-direction: column;
-        background-color: #1b1b2b;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
        }
+    
+       #navbar .container ul li{
+        margin: 1.6rem 0;
+       }
+    
+       .nav-menu.active{
+        left:0;
+       }
+    
 
        .image{
         display:none;
