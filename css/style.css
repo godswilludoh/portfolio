@@ -328,6 +328,9 @@ img{
         font-size: 1rem;
     }
 
+    .project-image{
+        display:none;
+    }
        
 }
 
@@ -383,6 +386,10 @@ img{
     font-size: 1rem;
 }
 
+.project-image{
+    display:none;
+}
+
 }
 
 /* Normal */
@@ -403,6 +410,10 @@ img{
         margin: 1rem;
         border-radius: 2rem;
         font-size: 1rem;
+    }
+
+    img{
+        width: 85%;
     }
     
 }
