@@ -302,7 +302,7 @@ img{
        .nav-menu{
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 7rem;
         display: flex;
         flex-direction: column;
        }
@@ -370,6 +370,13 @@ img{
     display: flex;
     flex-direction: column;
    }
+
+   
+   .nav-menu li{
+    padding-left: 1.5rem;
+    line-height: .5;
+   }
+
 
    .nav-menu.active{
     left:0;
