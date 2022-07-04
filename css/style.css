@@ -302,19 +302,19 @@ img{
        .nav-menu{
         position: fixed;
         left: -100%;
-        top: 7rem;
+        top: 5rem;
         display: flex;
         flex-direction: column;
        }
-    
-       #navbar .container ul li{
-        margin: 1.6rem 0;
+
+       .nav-menu li{
+        padding-left: 1.5rem;
+        line-height: .5;
        }
     
        .nav-menu.active{
         left:0;
-       }
-    
+       }    
 
        .image{
         display:none;
@@ -336,6 +336,11 @@ img{
 
     .project-image{
         display:none;
+    }
+
+    .container-card input, 
+    .container-card textarea{
+    width: 100%;    
     }
        
 }
@@ -366,10 +371,6 @@ img{
     flex-direction: column;
    }
 
-   #navbar .container ul li{
-    margin: 1.6rem 0;
-   }
-
    .nav-menu.active{
     left:0;
    }
@@ -394,6 +395,11 @@ img{
 
 .project-image{
     display:none;
+}
+
+.container-card input, 
+.container-card textarea{
+width: 100%;    
 }
 
 }
