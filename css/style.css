@@ -320,6 +320,10 @@ img{
         display:none;
     }
 
+    html{
+        font-size: 5px;
+    }
+
     .stack-cover{
         display: flex;
         flex-direction: column;
