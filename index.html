@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
@@ -14,11 +15,14 @@
     <title>Software Developer Portfolio</title>
     <script src="https://kit.fontawesome.com/486f3807ba.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav id="navbar">
             <div class="container">
-               <div><h1 class="logo"><a href="index.html">Godswill Udoh</a></h1></div>
+                <div>
+                    <h1 class="logo"><a href="index.html">Godswill Udoh</a></h1>
+                </div>
                 <!-- <div class="openMenu"><i class="fa-solid fa-bars"></i></div> -->
                 <ul class="nav-menu">
                     <li><a class="current" href="index.html">Home</a></li>
@@ -45,31 +49,33 @@
 
         <div class="info-name">
             <h1>Hello, I am
-            <br> <span class="name">Godswill Udoh</span></h1>
+                <br> <span class="name">Godswill Udoh</span>
+            </h1>
             <p class="profession"></p>
             <a class="btn" href="contact.html">Say Hello</a>
             <div class="info-img"></div>
         </div>
-       
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         let typingEffect = new Typed(".name", {
-             strings: ["Godswill Udoh","Frontend Developer", "Web3 Developer", "Technical Writer", "Bearded Tech Boy" ],
-            loop : true,
+            strings: ["Godswill Udoh", "Product Manager", "Frontend Developer", "Technical Writer"],
+            loop: true,
             typeSpeed: 100,
-            backSpeed:80,
+            backSpeed: 80,
             backDelay: 1500,
         })
 
-       const hamburger = document.querySelector('.hamburger');
-       const navMenu = document.querySelector('.nav-menu');
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
 
-       hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-       })
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        })
     </script>
 </body>
+
 </html>
